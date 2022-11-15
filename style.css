@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6469cd;
+    font-family: sans-serif;
+    height: 100vh;
+    
+}
+
+.container{
+
+    width: 400px;
+    background-color: white;
+    padding: 30px;
+    padding-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+h3{
+    font-size: 14px;
+    color: #808080;
+    margin-bottom: 34px;
+}
+.joke{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 38px;
+}
+.btn{
+    background-color: #a36ad9;
+    color: white;
+    padding: 8px 24px;
+    border-radius: 8px;
+    border: 0;
+}
