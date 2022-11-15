@@ -51,6 +51,10 @@ jokes = ["My wife told me to stop impersonating a flamingo. I had to put my foot
 
     var btn = document.getElementById("jokeBtn");
     var text = document.getElementById("joke");
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', rndm());
+
+    function rndm() {
       text.innerText = jokes[Math.floor(Math.random() * 49)];
-    });
+    }
+
+    rndm();
