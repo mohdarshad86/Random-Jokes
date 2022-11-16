@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #6469cd;
+  background-color: red;
   font-family: sans-serif;
   height: 100vh;
 }
@@ -10,6 +10,7 @@ body {
   width: 400px;
   background-color: white;
   padding: 30px;
+  border: 10px solid #6469cd;
   padding-top: 20px;
   border-radius: 8px;
   text-align: center;
